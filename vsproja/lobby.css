@@ -1,0 +1,39 @@
+body{
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+#form-container{
+    width: 90%;
+    background-color: #000000;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#form__container__header {
+    text-align: center;
+    background-color: #000000;
+    font-size: 20px;
+  }
+
+  #form__content__wrapper{
+    padding: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #000000;
+    margin-top: 10px;
+  }
+ 
+ 
+  input[type='submit'] {
+    background-color: #4b00ff;
+ 
+  }
